@@ -42,7 +42,7 @@ while ciclo:
                         faltas.extend(datos)  
                 except FileNotFoundError:
                     faltas.extend([])
-                numeroIdentificacion = input("Ingrese el numero de identificacion: ")
+                numeroIdentificacion = input("Ingrese el numero de identificacion:  ")
                 dia = input ("Ingrese el dia de la falta (1 al 31)")
                 mes = input ("Ingrese el mes de la falta (1 al 12)")
                 fecha = (dia+"/"+mes+"/"+"2024")
