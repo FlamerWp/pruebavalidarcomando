@@ -44,7 +44,7 @@ while ciclo:
                     faltas.extend([])
                 numeroIdentificacion = input("Ingrese el numero de identificacion:  ")
                 dia = input ("Ingrese el dia de la falta (1 al 31) ")
-                mes = input ("Ingrese el mes de la falta (1 al 12)")
+                mes = input ("Ingrese el mes de la falta (1 al 12) ")
                 fecha = (dia+"/"+mes+"/"+"2024")
 
                 faltas.append ([numeroIdentificacion,fecha])
